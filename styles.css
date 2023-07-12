@@ -35,17 +35,9 @@ img {
 }
 
 
-nav {
-    background-color: #4f2984;  
-    width: 100px
-    height: 80px
-}
 label.logo {
-    color: aliceblue;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+    font-size: 100px;
+    line-height: 90px;
 }
 nav ul {
     float: right;
@@ -56,6 +48,12 @@ nav ul li {
     line-height: 80px;
     margin: 0 5px;
 
+}
+nav img {
+    width: 180px;
+    height: 70px;
+    background-color: none;
+    margin-left: 10px;
 }
 nav ul li a {
     color: aliceblue;
@@ -89,4 +87,68 @@ transition: .5s;
         font-size: 16px;
 
     }
+}
+article-1 {
+    background-color:#2ebaab ;
+    width: 100px;
+    height: 80px;
+}
+article-1 div {
+    background-color:#2ebaab ;
+    width: 120px;
+    height: 150px;
+    padding-inline: 70px;
+    
+}
+article-1 div img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    align-self: start;
+    text-align: justify;
+}
+.item {
+    vertical-align: middle;
+}
+body {
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('IMG/Template1.jpeg');
+}
+.hero-image {
+    /*background-image: url(IMG/55.jpg);*/
+    height: 540px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-top: whitesmoke;
+  white-space: 30px;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+banner div h3 {
+    font-size: 50px;
+    color: hsl(205, 100%, 93%);
+    float:inline-end ;
+    justify-content: center;
+}
+banner div p {
+    font-size: 30px;
+    color: #e5fffc;
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
 }
